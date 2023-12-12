@@ -1,6 +1,5 @@
 import { FaDownload } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-import resume from '../../../assets/Task Description.111.pdf'
 
 const Navbar = () => {
     return (
@@ -8,7 +7,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between px-10 py-3 bg-sky-200">
                 <div className="flex items-center gap-5">
                     <img className="w-32 h-24" src="https://i.ibb.co/QkT5b3N/1000003103-removebg-preview.png" alt="" />
-                    <h1 className="text-3xl font-bold text-sky-600">Mihad</h1>
+                    <h1 className="text-3xl font-bold text-sky-600 italic">Mihad</h1>
                 </div>
                 <div className="flex items-center gap-5">
                     <li className="list-none">
@@ -44,7 +43,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-5">
                     {/* <Link><button className="btn bg-orange-500 btn-info text-lg">View Resume</button></Link> */}
-                    <button className="btn btn-info text-lg text-white bg-orange-500"><a href={resume} download className="download-btn flex items-center gap-3"><FaDownload /><span>Download Resume</span></a></button>
+                    <Link><button className="btn btn-info text-lg text-white bg-orange-500"><a href='https://filebin.net/ka5uy6zu4o3jouu4/Task_Description.111.pdf' className="download-btn flex items-center gap-3"><FaDownload /><span>Download Resume</span></a></button></Link>
                 </div>
             </div>
         </div>
