@@ -42,8 +42,8 @@ const Navbar = () => {
                     </li>
                 </div>
                 <div className="flex gap-5">
-                    {/* <Link><button className="btn bg-orange-500 btn-info text-lg">View Resume</button></Link> */}
-                    <Link><button className="btn btn-info text-lg text-white bg-orange-500"><a href='https://filebin.net/ka5uy6zu4o3jouu4/Task_Description.111.pdf' className="download-btn flex items-center gap-3"><FaDownload /><span>Download Resume</span></a></button></Link>
+                    
+                    <a className="download-btn flex items-center gap-3 btn btn-info text-lg text-white" href='https://filebin.net/23369dfi5r6q1258/pdf-3.pdf' ><FaDownload /><span>Download Resume</span></a>
                 </div>
             </div>
         </div>
